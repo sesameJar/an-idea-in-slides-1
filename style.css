@@ -5,11 +5,28 @@ section.container{
 section.slider{
 	width: 1500px;
 	min-height: 327px;
+	position: relative;
 }
-section.slider section{
+section.slider section.b1{
 	min-height:327px;
-	width: 100px;
+	width: 600px;
 	background-image: url('images/b1.jpg');
+	float: left;
+}
+section.slider section.b2{
+	min-height:327px;
+	width: 600px;
+	background-image: url('images/b2.jpg');
+	float: left;
+}
+section.slider section.b1 section{
+	width:100px;
+	min-height:327px;
+	float: left;
+}
+section.slider section.b2 section{
+	width:100px;
+	min-height:327px;
 	float: left;
 }
 section.img2{
