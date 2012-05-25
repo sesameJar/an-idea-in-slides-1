@@ -1,0 +1,40 @@
+section.container{
+	width:600px;
+	overflow: hidden;
+}
+section.slider{
+	width: 1500px;
+	min-height: 327px;
+}
+section.slider section{
+	min-height:327px;
+	width: 100px;
+	background-image: url('images/b1.jpg');
+	float: left;
+}
+section.img2{
+	background-position: -100px;
+}
+section.img3{
+	background-position: -200px;
+
+}
+section.img4{
+	background-position: -300px;
+
+}
+section.img5{
+	background-position: -400px;
+
+}
+section.img6{
+	background-position: -500px;
+
+}
+
+
+
+
+
+
+
