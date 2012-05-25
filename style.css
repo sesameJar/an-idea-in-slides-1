@@ -6,10 +6,12 @@ section.slider{
 	width: 1500px;
 	min-height: 327px;
 	position: relative;
-	animation: mymove 6s infinte;
+	-webkit-animation: mymove 6s infinite;
 	-webkit-animation-timing-function:linear;
 }
-
+section.slider:hover{
+	-webkit-animation-play-state: paused;
+}
 section.slider section.b1{
 	min-height:327px;
 	width: 600px;
@@ -34,6 +36,7 @@ section.slider section.b2 section{
 }
 section.img2{
 	background-position: -100px;
+	-webkit-animation-delay: 1s;
 }
 section.img3{
 	background-position: -200px;
@@ -61,7 +64,7 @@ ul.btns li{
 	background-color:black;
 	margin-right: 20px;
 }
-@keyframes mymove{
+@-webkit-keyframes mymove{
 	from{left:0px;}
 	to{left:-1500px;}
 }
