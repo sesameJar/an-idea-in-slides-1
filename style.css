@@ -6,7 +6,10 @@ section.slider{
 	width: 1500px;
 	min-height: 327px;
 	position: relative;
+	animation: mymove 6s infinte;
+	-webkit-animation-timing-function:linear;
 }
+
 section.slider section.b1{
 	min-height:327px;
 	width: 600px;
@@ -48,8 +51,20 @@ section.img6{
 	background-position: -500px;
 
 }
+ul.btns{
 
-
+}
+ul.btns li{
+	float: left;
+	width: 30px;
+	height: 20px;
+	background-color:black;
+	margin-right: 20px;
+}
+@keyframes mymove{
+	from{left:0px;}
+	to{left:-1500px;}
+}
 
 
 
