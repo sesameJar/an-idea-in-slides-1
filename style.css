@@ -6,11 +6,12 @@ section.slider{
 	width: 1500px;
 	min-height: 327px;
 	position: relative;
-	-webkit-animation: mymove 6s infinite;
-	-webkit-animation-timing-function:linear;
+
+
+	
 }
 section.slider:hover{
-	-webkit-animation-play-state: paused;
+
 }
 section.slider section.b1{
 	min-height:327px;
@@ -19,7 +20,7 @@ section.slider section.b1{
 	float: left;
 }
 section.slider section.b2{
-	min-height:327px;
+	min-height:327px; 
 	width: 600px;
 	background-image: url('images/b2.jpg');
 	float: left;
@@ -30,6 +31,17 @@ section.slider section.b1 section{
 	float: left;
 }
 section.slider section.b2 section{
+	width:100px;
+	min-height:327px;
+	float: left;
+}
+section.slider section.b3{
+	min-height:327px; 
+	width: 600px;
+	background-image: url('images/b3.jpg');
+	float: left;
+}
+section.slider section.b3 section{
 	width:100px;
 	min-height:327px;
 	float: left;
@@ -63,11 +75,7 @@ ul.btns li{
 	height: 20px;
 	background-color:black;
 	margin-right: 20px;
-}
-@-webkit-keyframes mymove{
-	from{left:0px;}
-	to{left:-1500px;}
-}
+
 
 
 
