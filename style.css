@@ -3,10 +3,10 @@ section.container{
 	overflow: hidden;
 }
 section.slider{
-	width: 1500px;
+	width: 3000px;
 	min-height: 327px;
 	position: relative;
-
+	-webkit-transition: left 1s;
 
 	
 }
@@ -46,6 +46,28 @@ section.slider section.b3 section{
 	min-height:327px;
 	float: left;
 }
+section.slider section.b4{
+	min-height:327px; 
+	width: 600px;
+	background-image: url('images/b4.jpg');
+	float: left;
+}
+section.slider section.b4 section{
+	width:100px;
+	min-height:327px;
+	float: left;
+}
+section.slider section.b5{
+	min-height:327px; 
+	width: 600px;
+	background-image: url('images/b5.jpg');
+	float: left;
+}
+section.slider section.b5 section{
+	width:100px;
+	min-height:327px;
+	float: left;
+}
 section.img2{
 	background-position: -100px;
 	-webkit-animation-delay: 1s;
@@ -67,17 +89,31 @@ section.img6{
 
 }
 ul.btns{
-
+	margin-top: 20px;
 }
 ul.btns li{
 	float: left;
-	width: 30px;
-	height: 20px;
+	width: 50px;
+	height: 30px;
 	background-color:black;
 	margin-right: 20px;
 
+}
+li.b1{
+	background-image: url('images/b1s.jpg');
+}
+li.b2{
+	background-image: url('images/b2s.jpg');
+}
+li.b3{
+	background-image: url('images/b3s.jpg');
 
+}
+li.b4{
+	background-image: url('images/b4s.jpg');
 
+}
+li.b5{
+	background-image: url('images/b5s.jpg');
 
-
-
+}
