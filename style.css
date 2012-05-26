@@ -95,8 +95,10 @@ ul.btns li{
 	float: left;
 	width: 50px;
 	height: 30px;
-	background-color:black;
+	background-color:transparent;
 	margin-right: 20px;
+	-webkit-transition:all 700ms;
+	background-repeat: no-repeat;
 
 }
 li.b1{
@@ -117,3 +119,9 @@ li.b5{
 	background-image: url('images/b5s.jpg');
 
 }
+ul.btns li:hover{
+	background-size: 60px 35px;
+
+
+}
+
